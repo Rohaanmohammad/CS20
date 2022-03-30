@@ -8,28 +8,21 @@ Author: Rohaan
 School: CHHS
 Course: Computer science 20
  
-
+done
 */
 package assignments;
 
-import java.util.Scanner;
+
 
 public class Evens {
 	public static void main(String[] args) 
 	{
-		Scanner input = new Scanner(System.in);	
-		System.out.println("");
 		
+for (int i = 2; i <= 20; i++) {
+	System.out.println(i++);
+}
 		
 		 
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
