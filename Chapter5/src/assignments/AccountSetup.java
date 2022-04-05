@@ -19,23 +19,26 @@ public class AccountSetup {
 	{
 	
 		Scanner input = new Scanner(System.in);	
-			
-		int num;
-		int sum = 0;
-		
-		System.out.println("enter number");
-		
-		num = input.nextInt();
-		
-		for (; num >= 1; num--) {
-			System.out.println(num);
-			sum = sum + num;
-		}
-		
-		System.out.println("the sum of all the number is: "+sum);
-		
-		
 	
+		System.out.println("enter a username: ");
+		
+		String username = input.nextLine();
+		
+		System.out.println(username);
+		
+		System.out.println("enter a password that is at least 8 characters: ");
+		
+		String password = input.nextLine();
+		
+		System.out.println(password);
+		
+		System.out.println("tour name is " + username + " and your password is " +  password + ".");
+		
+		
+		
+		
+		
+		
 		
 		
 		
