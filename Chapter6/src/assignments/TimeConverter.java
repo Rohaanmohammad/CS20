@@ -16,6 +16,7 @@ import java.util.Scanner;
 
 public class TimeConverter {
 public static void hourstominutes() {
+
 	double hours, mins;
 	
 	Scanner input = new Scanner(System.in);
