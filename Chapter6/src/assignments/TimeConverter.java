@@ -22,6 +22,11 @@ public static void hourstominutes() {
 	
 	System.out.println("Enter time in hours ");
 	
+	hours = input.nextDouble();
+	
+	mins = hours * 60;
+	
+	System.out.println("minutes is: " + mins);
 }
 
 }
