@@ -8,32 +8,20 @@ Author: Rohaan
 School: CHHS
 Course: Computer science 20
  
-done
+
 */
 package assignments;
 
 import java.util.Scanner;
 
-public class Exercise8 {
-	public static void main(String[] args) 
-	{
+public class TimeConverter {
+public static void hourstominutes() {
+	double hours, mins;
 	
-		Scanner input = new Scanner(System.in);	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("Enter time in hours ");
+	
+}
 
 }
-/* Screen Dump
-
-
-
- */
