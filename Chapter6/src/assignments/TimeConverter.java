@@ -42,7 +42,7 @@ public static void daystohours() {
 	
 	hours = days * 24;
 	
-	System.out.println("hours is: " + hours);
+	System.out.println("hours is: " + hours); 
 }
 
 public static void minutestohours() {
@@ -102,9 +102,7 @@ public static void main(String[] args) {
 	}
 	else {
 		hourstodays();
-	}
-	
-	
+	} 
 	
 	
 	
