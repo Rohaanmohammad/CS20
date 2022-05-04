@@ -18,14 +18,18 @@ public class Circle {
 	public static void circumference() {
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println("enter Radius: ");
+		
 		int userinput = input.nextInt();
 		double num = 2;
 		double pi = 3.14;
-		double radius = userinput;
+		double Radius = userinput;
 		double circumference;
 		
-		circumference = num * pi * radius;
-		System.out.println("gg: " + circumference);	
+		
+		circumference = num * pi * Radius;
+		System.out.println("circumference is: " + circumference);	
+
 	}
 	
 	
@@ -36,7 +40,19 @@ public class Circle {
 		
 		spot.setRadius(3);
 		
+		
 		System.out.println("Circle radius: " + spot.getRadius());	
 		System.out.println("Circle circumference: " + spot.circumference() );	
+		
+		
+		 
 	}
-}
+
+
+
+
+
+
+
+	}
+
