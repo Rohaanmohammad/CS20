@@ -14,9 +14,65 @@ Course: Computer science 20
 import java.util.Scanner;
 
 public class Adder {
+	public static void RandomNum() {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("type a number to start: " );
+		int userinput = input.nextInt();
+		
+		
+		int min = 0;
+		int max = 20;
+		
+		
+	    
+		int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
+	      
+		
+	    int Min = 0;
+		int Max = 20;
+		
+		int Random_int = (int)Math.floor(Math.random()*(Max-Min+1)+Min);
+	      
+		
+		
+		
+		
+		int sandomint = (int)Math.floor(Math.random()*(Max-Min+1)+Min);
+		
+		int Sandomint = (int)Math.floor(Math.random()*(max-min+1)+min);
+		
+		int sum = random_int + Random_int;
+		
+		if (sum == userinput) {
+			System.out.println(sandomint + Sandomint);
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public static void main(String[] args) 
 	{
-		
+	/*	
 		Scanner input = new Scanner(System.in);
 		
 
@@ -121,7 +177,23 @@ public class Adder {
 		
 			System.out.println( sandom_int + " + " + Sandom_int + " = "  );
 			int ginput = input.nextInt();
+		*/
+		int choose;
 		
+		Scanner input = new Scanner(System.in);
 		
+		System.out.println("1.");
+		
+		System.out.println("2.");
+
+		
+		choose = input.nextInt();
+		
+		if (choose == 1 ) {
+			RandomNum();
+		}
+		else {
+			RandomNum();
+		}
 	}
 }
