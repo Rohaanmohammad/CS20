@@ -1,6 +1,4 @@
 
-
-
 import com.phidget22.*;
 
 public class ReadButton {
@@ -18,10 +16,22 @@ public class ReadButton {
         redButton.open(1000);
 
         
+        //while(true){
+          //  System.out.println("Button State: " + redButton.getState());
+          //  Thread.sleep(150);
+            
+        Boolean buttonState = false; // track button state changes
         while(true){
-            System.out.println("Button State: " + redButton.getState());
-            Thread.sleep(0);
+	          if(redButton.getState() && !buttonState){
+System.out.println("Button State: true " );
+                       }else if (!redButton.getState() && buttonState){
+System.out.println("Button State: false " );
+                       }	
+	         buttonState = redButton.getState(); // record button state changes
+            Thread.sleep(150);
+        }
+            
         }
     }
-}
+//}
   
